@@ -1,0 +1,44 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+	left: 0;
+	background-image: url(img/me.jpg);		
+	background-position: center;
+}
+
+.right {
+  right: 0;
+  background-color: white;
+  text-align: center;
+}
+
+h1 {
+	font-family: 'Bad Script', cursive;
+	font-size: 50px;
+	text-align: center;
+}
+
+.first {
+	margin-top: -20px;
+}
+
+p {
+	margin-top: 15px;
+	margin-right: 40px;
+	margin-left: 40px;
+	font-family: 'Oranienbaum', serif;
+	font-size: 19px;
+	color: rgb(105,105,105);
+}
+
+a {
+	color: rgb(153,186,221);
+}
